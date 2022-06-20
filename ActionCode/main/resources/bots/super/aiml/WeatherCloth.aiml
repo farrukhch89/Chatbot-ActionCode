@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<!-- File: WeatherCloth.aiml -->
+<!-- Author: Dr. Richard S. Wallace -->
+<!-- Last modified: April 22, 2020 -->
+<!--  -->
+<!-- This AIML file is part of the SUPER 0.0.4 chat bot knowledge base. -->
+<!--  -->
+<!-- The SUPER brain is Copyright &copy; 2020 by ALICE AI Foundation. -->
+<!--  -->
+<!-- The SUPER brain is released under the terms of the GNU Lesser General -->
+<!-- Public License, as published by the Free Software Foundation. -->
+<!--  -->
+<!-- This file is distributed WITHOUT ANY WARRANTY; without even the  -->
+<!-- implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.   -->
+<!--  -->
+<!-- For more information see http://www.alicebot.org -->
+<category><pattern>ITS SUNNY</pattern>
+<template><random>
+<li>Pack clothes some light clothes and take sun cream.</li>
+<li>Pack some short sleeve clothes.</li>
+<li>Pack some light clothes and sunglasses</li>
+</random></template>
+</category>
+<category><pattern>ITS RAINNY</pattern>
+<template><random>
+<li>Pack warm clothing and take umbrella.</li>
+<li>Take long sleeve clothes to keep warm.</li>
+<li>Take warm clothes and a raincoat.</li></random></template>
+</category>
+<category><pattern>ITS HAILING</pattern>
+<template><random>
+<li>Pack clothes some warm clothes.</li>
+<li>Pack some long sleeve clothes.</li>
+<li>Take warm clothes.</li>
+</random></template>
+</category>
+<category><pattern>ITS SNOWING</pattern>
+<template><random>
+<li>Take long sleeve clothes to keep warm.</li>
+<li>Don't forget your Jacket and boots.</li>
+</random></template>
+</category>
+<category><pattern>ITS CLOUDY</pattern>
+<template>Pack some normal wear the temperature is mild.</template>
+</category>
+</aiml>

@@ -1,0 +1,10 @@
+0,WHATS THE WEATHER *,*,*,<srai> WEATHER <star/></srai>,weatherConn.aiml
+0,WEATHER TODAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java TODAY</system>,weatherConn.aiml
+0,WEATHER TOMORROW,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java TOMORROW</system>,weatherConn.aiml
+0,WEATHER MONDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java MONDAY</system>,weatherConn.aiml
+0,WEATHER TUESDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java TUESDAY</system>,weatherConn.aiml
+0,WEATHER WEDNESDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java WEDNESDAY</system>,weatherConn.aiml
+0,WEATHER THURSDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java THURSDAY</system>,weatherConn.aiml
+0,WEATHER FRIDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java FRIDAY</system>,weatherConn.aiml
+0,WEATHER SATURDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java SATURDAY</system>,weatherConn.aiml
+0,WEATHER SUNDAY,*,*,<think><set name="topic">weather</set></think>#Newline<system>./scripts/weatherC.java SUNDAY</system>,weatherConn.aiml
